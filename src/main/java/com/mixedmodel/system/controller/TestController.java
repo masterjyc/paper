@@ -1,5 +1,6 @@
 package com.mixedmodel.system.controller;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,9 +13,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
+    @Value("${test.hello}")
+    String testProperties;
+
     @RequestMapping("/hello")
     public String hello() {
-        return "Hello World!";
+        return "Hello World!" + testProperties;
     }
 
     @PostMapping ("/hello/post")
