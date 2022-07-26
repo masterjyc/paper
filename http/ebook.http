@@ -1,10 +1,10 @@
 
 
-GET http://localhost:8080/demo/list
+GET http://localhost:8080/ebook/list
 
 ###
 
-GET http://localhost:8080/demo/redis/set/123/demo
+GET http://localhost:8080/ebook/redis/set/123/ebook
 Accept: application/json
 
 ###
