@@ -1,0 +1,15 @@
+
+
+GET http://localhost:8080/demo/list1
+
+###
+
+GET http://localhost:8080/demo/redis/set/123/demo
+Accept: application/json
+
+###
+
+GET http://localhost:8080/redis/get/15271595887169536
+Accept: application/json
+
+###
