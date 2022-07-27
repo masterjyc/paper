@@ -1,5 +1,10 @@
 package com.mixedmodel.system.resp;
 
+/**
+ * 统一返回值的类型
+ * @param <T>
+ */
+
 public class CommonResp<T> {
 
     /**
