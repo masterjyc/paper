@@ -1,7 +1,7 @@
 package com.mixedmodel.system.resp;
 
 /**
- * 统一返回值的类型
+ * 统一返回值的类型  泛型
  * @param <T>
  */
 
